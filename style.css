@@ -1,0 +1,68 @@
+*{
+    font-family: calibri, sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    width: 95%;
+    font-size: 20px;
+    margin: 20px ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+.link{
+    color: gray;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.link:hover{
+    color: #000;
+    transition: .5s;
+}
+.active{
+    color: #000;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+}
+.logo img{
+    width: 135px;
+}
+
+
+
+hr{
+    margin: 20px 20px 10px 20px;
+}
+.social{
+    width: 40px;
+    height: 40px;
+    margin: 10px 7px;
+}
+.ig{
+    width: 50px;
+    height: 38px;
+}
+.linkedin{
+    height: 35px;
+    width: 33px;
+}
+
+
+article{
+    margin: 10px 20px;
+}
+fieldset{
+    font-size: 18px;
+}
+.title{
+    font-size: 30px;
+    color: goldenrod;
+}
