@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* ==================== Barre de navigation ==================== */
 .navbar{
     width: 95%;
     font-size: 20px;
@@ -11,23 +12,22 @@
     justify-content: center;
     position: relative;
 }
-
 a{
     text-decoration: none;
 }
 .link{
-    color: gray;
+    color: rgb(154, 153, 153);
     text-decoration: none;
     margin: 0 15px;
 }
 .link:hover{
     color: #000;
-    transition: .5s;
+    transition: .3s;
 }
 .active{
     color: #000;
+    font-weight: 600;
 }
-
 .logo{
     position: absolute;
     left: 0;
@@ -35,9 +35,28 @@ a{
 .logo img{
     width: 135px;
 }
+@media screen and (max-width: 1100px){
+    .navbar{
+        justify-content: end;
+    }
+    .link{
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        position: initial;
+    }
+    .link{
+        margin: 2px 10px;
+    }
+}
 
 
-
+/* ==================== Pied de page ==================== */
 hr{
     margin: 20px 20px 10px 20px;
 }
@@ -56,13 +75,46 @@ hr{
 }
 
 
-article{
-    margin: 10px 20px;
+/* ==================== Section ==================== */
+.container{
+    margin: 10px 20px !important;
 }
 fieldset{
     font-size: 18px;
 }
-.title{
+.titre{
     font-size: 30px;
     color: goldenrod;
+}
+
+
+/* ==================== Quizz ==================== */
+.question {
+    margin-bottom: 30px;
+}
+.question strong{
+    margin-bottom: 8px;
+}
+.question img{
+    width: 275px;
+    height: 175px;
+    margin-left: 15px;
+}
+.imagefield{
+    width: 300px;
+    text-align: center;
+}
+.answers{
+    margin-left: 15px;
+}
+.answer{
+    margin: 12px 0;
+}
+button{
+    padding: 7px 30px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 30px;
 }
