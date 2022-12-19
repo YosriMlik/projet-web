@@ -25,19 +25,52 @@
         </nav>
     </header>
 
-    <section>
+    <section style="height: 70vh;">
         <article class="container">
             <fieldset>
                 <legend><h1 class="titre">Coordonnées de contact</h1></legend>
                 <p>
                     <ul>
                         <li><a href="tel:+21626644323">Téléphone : 26 644 323</a></li>
-                        <li><a href="mailto:ymlik24@gmail.com">E-mail : ymlik24@gmail.com</a></li>
                         <li>Adresse : Beliana 3087, El Amra, Sfax</li>
                     </ul>
                 </p>
             </fieldset>           
         </article>
+
+        <article class="container">
+            <fieldset>
+                <legend><h1 class="titre">Envoyer moi un e-mail</h1></legend>
+                
+                <form>
+                    <textarea name="content" id="content" cols="100" rows="10"></textarea>
+                    <br>
+                    <button><a onclick="send()" target="_blank" href="contact.html" id="sendButton">Envoyer</a></button>
+                </form>
+            </fieldset>           
+        </article>
     </section>
+
+    <footer>
+        <center>
+            <hr>
+            <h3>Réseaux sociaux</h3>
+            <br>
+            <a href="https://www.facebook.com/yoosri.benmlik.3" target="_blank">
+                <img class="social" src="../images/logo-facebookpng-32247.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/iamyosrimlik/" target="_blank" rel="noopener noreferrer">
+                <img class="social ig" src="../images/logo-ig-png-32453.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com/YosriMlik" target="_blank" rel="noopener noreferrer">
+                <img class="social" src="../images/logo-twitter-png-40407.png" alt="twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/yosri-mlik/" target="_blank" rel="noopener noreferrer">
+                <img class="social linkedin" src="../images/linkedin.png" alt="">
+            </a>
+        </center>
+    </footer>
+
+    <script src="../main.js"></script>
 </body>
 </html>

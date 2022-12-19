@@ -35,7 +35,7 @@ a{
 .logo img{
     width: 135px;
 }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1300px){
     .navbar{
         justify-content: end;
     }
@@ -43,7 +43,7 @@ a{
         margin: 0 10px;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     .navbar{
         flex-direction: column;
     }
@@ -110,7 +110,7 @@ fieldset{
 .answer{
     margin: 12px 0;
 }
-button{
+button, button a{
     padding: 7px 30px;
     color: #fff;
     font-size: 18px;
